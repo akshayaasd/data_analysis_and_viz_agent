@@ -2,7 +2,7 @@ import os
 from groq import Groq
 
 # Set your API key
-api_key = os.getenv('GROQ_API_KEY') or 'your_key'
+api_key = os.getenv('GROQ_API_KEY') or ''
 
 print("=" * 50)
 print("🧪 Groq API Test (Updated Models)")
